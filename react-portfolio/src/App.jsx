@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import MyPhoto from "./assets/myphoto.jpeg";  // exact file name
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       {/* Home Section */}
       <section className="home">
   <div className="home-content">
-    <img src="/myphoto.jpg" alt="My Profile" className="profile-img" />
+   <img src={MyPhoto} alt="My Profile" className="profile-img" />
     <h1>Hi, I'm Santhiya</h1>
     <h3 className="typing">Web Developer | AI Enthusiast | Creative Applications</h3>
     <p>
